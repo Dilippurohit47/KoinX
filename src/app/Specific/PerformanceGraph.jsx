@@ -9,7 +9,7 @@ const PerformanceGraph = () => {
         <div>
             <p className="text-[#000000b7] text-[0.9rem] mb-2 vsm:text-[0.8rem]">
         
-            Today's Low
+            Today&apos;s Low
           </p >
           45,464.56
         </div>
@@ -18,7 +18,7 @@ const PerformanceGraph = () => {
          
           <p className="text-[#000000b7] text-[0.9rem] mb-2 vsm:text-[0.8rem]">
          
-            Today's High
+            Today&apos;High
           </p>
           45,464.56
         </div>
