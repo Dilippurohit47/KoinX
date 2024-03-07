@@ -8,7 +8,9 @@ const TrendingCarousel = () => {
   const [windowWidth, setwindowWidth] = useState(0);
 
   useEffect(() => {
-    setwindowWidth(window.innerWidth);
+    if (typeof window !== 'undefined') {
+      setwindowWidth(window.innerWidth);
+    }
   }, [window.innerWidth]);
   useEffect(() => {
     fetch("https://api.coingecko.com/api/v3/search/trending")
