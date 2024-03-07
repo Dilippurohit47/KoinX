@@ -13,7 +13,7 @@ const NavLinks = [
 const PerformancePageNav = () => {
   const [isActive, setisActive] = useState("Overview");
   return (
-    <div className="border-b-[2px] px-1 py-3 border-[#00000050] vsm:w-[99vw] flex justify-between vsm:overflow-x-auto   no-scrollbar vsm:gap-4   ">
+    <div className="border-b-[2px] px-1 py-3 border-[#00000050] vsm:w-[99vw] flex justify-between vsm:overflow-x-auto   no-scrollbar vsm:gap-4">
       {NavLinks.map((links, index) => (
         <div key={index} className="relative whitespace-nowrap ">
           <a

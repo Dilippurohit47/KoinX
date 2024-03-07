@@ -7,20 +7,19 @@ const PerformanceGraph = () => {
 
       <div className="relative  flex justify-between items-center">
         <div>
-          {" "}
-          <p className="text-[#000000b7] text-[0.9rem] mb-2 vsm:text-[0.8rem]">
-            {" "}
-            Today's Low{" "}
-          </p >{" "}
+            <p className="text-[#000000b7] text-[0.9rem] mb-2 vsm:text-[0.8rem]">
+        
+            Today's Low
+          </p >
           45,464.56
         </div>
         <div className="w-[68%] vsm:w-[45%]  grad-line h-[4px] rounded-full"></div>
         <div>
-          {" "}
+         
           <p className="text-[#000000b7] text-[0.9rem] mb-2 vsm:text-[0.8rem]">
-            {" "}
-            Today's High{" "}
-          </p>{" "}
+         
+            Today's High
+          </p>
           45,464.56
         </div>
 
@@ -34,13 +33,13 @@ const PerformanceGraph = () => {
 
       <div className="relative mt-12  flex justify-between items-center">
         <div>
-          {" "}
+        
           <p className="text-[#000000b7] text-[0.9rem] mb-2 vsm:text-[0.8rem]"> 52W Low </p>{" "}
           16,823.5
         </div>
         <div className="w-[68%]  grad-line h-[4px] vsm:w-[45%] rounded-full"></div>
         <div>
-          {" "}
+         
           <p className="text-[#000000b7] text-[0.9rem] mb-2 vsm:text-[0.8rem]"> 52W High </p>{" "}
           49,464.56
         </div>
