@@ -11,3 +11,19 @@
   background: linear-gradient(90deg, rgba(6,125,238,1) 0%, rgba(18,59,255,1) 35%);
   /* color: black; */
 }
+.grad-line{
+
+  background: linear-gradient(90deg, rgba(238,6,6,1) 0%, rgba(255,177,18,1) 48%, rgba(18,255,105,1) 100%);;
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}

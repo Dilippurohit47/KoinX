@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { MdArrowDropDown } from "react-icons/md";
+import { MdArrowDropDown } from "react-icons/md"
 import { MdArrowDropUp } from "react-icons/md";
 const TrendingCoins = () => {
   const [trending, settrending] = useState([]);
@@ -20,7 +20,6 @@ const TrendingCoins = () => {
       });
   }, []);
 
-  console.log(trending)
 
   return (
     <div className="bg-white h-[30%] w-[100%] mt-6 px-6 py-6">
@@ -30,7 +29,7 @@ const TrendingCoins = () => {
         {trending?.slice(0, 3).map((i, index) => (
           <>
             <div className="flex items-center justify-between mb-4">
-              <p className="text-[1.2rem]">{i?.item?.name} </p>
+              <p className="text-[1rem] font-[600]">{i?.item?.name} ({i?.item.symbol}) </p>
 
               {i?.item?.data?.price_change_percentage_24h?.aed.toFixed(2) >
               0 ? (
