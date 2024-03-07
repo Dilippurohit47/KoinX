@@ -2,7 +2,7 @@ import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";
 const GetStarted = () => {
   return (
-    <div className="bgblue h-[60%] w-[100%]  text-white px-9 py-12 flex flex-col items-center text-center rounded-3xl ">
+    <div className="bgblue h-[60%] w-[100%]  text-white px-9  py-12 flex flex-col items-center text-center rounded-3xl  vsm:px-3">
     <p className=" text-[1.5rem] font-[600]">
       Get Started with KoinX For FREE
     </p>

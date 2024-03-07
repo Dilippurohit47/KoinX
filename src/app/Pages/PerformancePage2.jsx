@@ -6,9 +6,9 @@ import LikeAlso from "./LikeAlso";
 
 const PerformancePage2 = () => {
   return (
-    <div>
+    <div className="mt-[-9vh] vsm:mt-10">
       <PerformancePageNav />
-      <div className="py-12 px-8 ">
+      <div className="py-12 px-8  vsm:px-2 ">
         <PerformanceGraph />
         <Sentiments />
         <LikeAlso/>
