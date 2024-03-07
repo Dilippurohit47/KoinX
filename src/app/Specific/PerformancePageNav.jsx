@@ -15,12 +15,12 @@ const PerformancePageNav = () => {
   return (
     <div className="border-b-[2px] px-1 py-3 border-[#00000050] vsm:w-[99vw] flex justify-between vsm:overflow-x-auto   no-scrollbar vsm:gap-4   ">
       {NavLinks.map((links, index) => (
-        <div className="relative whitespace-nowrap ">
+        <div key={index} className="relative whitespace-nowrap ">
           <a
             className={` font-[500]   cursor-pointer ${
-              isActive == links ? "text-[#0141CF]" : ""
+              isActive === links ? "text-[#0141CF]" : ""
             }`}
-            onClick={()=>setisActive(links)}
+            onClick={() => setisActive(links)}
           >
             {links}
           </a>
