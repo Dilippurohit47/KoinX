@@ -11,7 +11,7 @@ const LikeCarousel = () => {
     if (typeof window !== 'undefined') {
       setwindowWidth(window.innerWidth);
     }
-  }, [window.innerWidth]);
+  }, []);
   useEffect(() => {
     fetch("https://api.coingecko.com/api/v3/search/trending")
       .then((response) => {
